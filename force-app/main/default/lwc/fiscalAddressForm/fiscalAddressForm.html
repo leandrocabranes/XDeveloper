@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Ahipping Address" icon-name="utility:knowledge_base">
+        <lightning-record-form
+            record-id={recordId}
+            object-api-name={objectApiName}
+            fields={fields}
+            columns="2"
+            mode="edit"
+            onsubmit={handleSubmit}>
+        </lightning-record-form>
+    </lightning-card>
+</template>
